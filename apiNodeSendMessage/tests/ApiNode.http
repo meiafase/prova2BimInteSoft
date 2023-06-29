@@ -1,0 +1,14 @@
+### Cadastrar ApiNode
+POST http://localhost:3000/cadastrar
+Content-Type: application/json
+
+{
+   "mes" : 5,
+   "ano": 2023,
+   "horas": 1000,
+   "valor": 50,
+   "funcionario": {
+      "nome": "Samuel",
+      "cfp": "110.558.569-89"
+   }
+}
